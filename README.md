@@ -1,52 +1,32 @@
-Desafio de Web Scraping
+<h2>Descrição</h2>
+<p>Este projeto é um desafio técnico para realizar Web Scraping e manipulação de arquivos. O código acessa um site do governo, baixa documentos PDF específicos e os compacta em um arquivo ZIP.</p>
 
-Descrição
+<h2>Tecnologias Utilizadas</h2>
+<ul>
+    <li>Python 3.x</li>
+    <li>Requests</li>
+    <li>BeautifulSoup4</li>
+    <li>Zipfile</li>
+</ul>
 
-Este projeto é um desafio técnico para realizar Web Scraping e manipulação de arquivos. O código acessa um site do governo, baixa documentos PDF específicos e os compacta em um arquivo ZIP.
+<h2>Como Rodar o Projeto</h2>
+<ol>
+    <li><strong>Clonar o repositório:</strong>
+        <pre>git clone https://github.com/seu_usuario/desafio-web-scraping.git<br>cd desafio-web-scraping</pre>
+    </li>
+    <li><strong>Criar um ambiente virtual (opcional, mas recomendado):</strong>
+        <pre>python -m venv venv<br>source venv/bin/activate  # Linux/macOS<br>venv\Scripts\activate  # Windows</pre>
+    </li>
+    <li><strong>Instalar as dependências:</strong>
+        <pre>pip install -r requirements.txt</pre>
+    </li>
+    <li><strong>Executar o script:</strong>
+        <pre>python scraper.py</pre>
+    </li>
+</ol>
 
-Tecnologias Utilizadas
+<h2>Resultado</h2>
+<p>Ao rodar o script, os arquivos "Anexo I" e "Anexo II" serão baixados e compactados dentro da pasta <code>downloads/anexos.zip</code>.</p>
 
-Python 3.x
-
-Requests
-
-BeautifulSoup4
-
-Zipfile
-
-Como Rodar o Projeto
-
-Clonar o repositório:
-
-git clone https://github.com/seu_usuario/desafio-web-scraping.git
-cd desafio-web-scraping
-
-Criar um ambiente virtual (opcional, mas recomendado):
-
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate  # Windows
-
-Instalar as dependências:
-
-pip install -r requirements.txt
-
-Executar o script:
-
-python scraper.py
-
-Estrutura do Projeto
-
-/
-├── downloads/         # Pasta onde serão salvos os PDFs e o ZIP
-├── scraper.py         # Script principal
-├── README.md          # Documentação do projeto
-└── requirements.txt   # Lista de dependências
-
-Resultado
-
-Ao rodar o script, os arquivos "Anexo I" e "Anexo II" serão baixados e compactados dentro da pasta downloads/anexos.zip.
-
-Contato
-
-Caso tenha alguma dúvida, entre em contato pelo meu linkedin https://www.linkedin.com/in/leonardo-jarussi-03b0b32b7/.
+<h2>Contato</h2>
+<p>Caso tenha alguma dúvida, entre em contato pelo <a href="https://www.linkedin.com/in/leonardo-jarussi-03b0b32b7/">Linkedin</a>.</p>
