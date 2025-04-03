@@ -12,13 +12,7 @@
 <h2>Como Rodar o Projeto</h2>
 <ol>
     <li><strong>Clonar o repositório:</strong>
-        <pre>git clone https://github.com/seu_usuario/desafio-web-scraping.git<br>cd desafio-web-scraping</pre>
-    </li>
-    <li><strong>Criar um ambiente virtual (opcional, mas recomendado):</strong>
-        <pre>python -m venv venv<br>source venv/bin/activate  # Linux/macOS<br>venv\Scripts\activate  # Windows</pre>
-    </li>
-    <li><strong>Instalar as dependências:</strong>
-        <pre>pip install -r requirements.txt</pre>
+        <pre>git clone https://github.com/LeoJarussi/desafio-web-scraping.git<br>cd desafio-web-scraping</pre>
     </li>
     <li><strong>Executar o script:</strong>
         <pre>python scraper.py</pre>
